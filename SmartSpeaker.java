@@ -38,7 +38,7 @@ public class SmartSpeaker extends SmartDevice implements Switchable, Connectable
 
     @Override
     public String printData(){
-        return super.printData();
+        return super.printData() + "volume" + volume + "koneksi" + koneksi;
     }
     
 

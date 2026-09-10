@@ -41,7 +41,7 @@ public class SmartTV extends SmartDevice implements Switchable, Connectable{
     
     @Override
     public String printData(){
-        return super.printData() + "Channerl" + chanel;
+        return super.printData() + "Channerl" + chanel + "Volume" + volume + "Koneksi" + koneksi;
 
     }
 }
